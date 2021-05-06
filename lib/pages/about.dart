@@ -25,6 +25,7 @@ class AboutPage extends StatelessWidget {
                     MaterialPageRoute(builder: (context) => MyHomePage()));
               },
               child: Text('click me')),
+              TextButton(onPressed: handlesubmit(), child: Text('just a button')),
         ],
       ),
     );
